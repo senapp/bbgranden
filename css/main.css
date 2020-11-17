@@ -1,0 +1,357 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+}
+h1 {
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+}
+h3 {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 15.4px;
+}
+p {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+span {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+a {
+  color: black;
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+blockquote {
+  font-family: "Open Sans";
+  font-size: 21px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+pre {
+  font-family: "Open Sans";
+  font-size: 13px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 18.5714px;
+}
+.navbar {
+  position: fixed;
+  border-bottom: 1px solid rgb(255, 196, 0);
+  height: 11.5%;
+  width: 100%;
+  background-color: white;
+  z-index: 2;
+}
+main {
+  position: absolute;
+  top: 11.5%;
+  width: 100%;
+  height: 100%;
+}
+.navbar h3 {
+  position: absolute;
+  top: 50%;
+  left: 1.5%;
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  font-size: 20px;
+}
+.call {
+  position: absolute;
+  right: 1.5%;
+  top: 50%;
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
+.fa-phone-alt {
+  position: absolute;
+  top: 2px;
+  left: -20%;
+  font-size: 18px;
+  color: rgb(255, 196, 0);
+}
+.call a {
+  font-size: 18px;
+}
+.rolling-pics {
+  position: relative;
+  max-width: 100%;
+  float: left;
+  max-height: 500px;
+  margin-bottom: 25px;
+}
+.rolling-pics::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  box-shadow: inset 0 0 25px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: inset 0 0 25px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: inset 0 0 25px rgba(0, 0, 0, 0.6);
+}
+.rolling-pics img {
+  width: 100%;
+  float: left;
+  margin-right: -100%;
+  position: relative;
+  opacity: 0;
+  visibility: hidden;
+  display: block;
+  transition: opacity 1s ease-in, visibility 1s ease-in;
+  max-height: 500px;
+  image-rendering: -webkit-optimize-contrast;
+  object-fit: cover;
+}
+.amenities {
+  height: 150px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.amenities h3 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 30px;
+}
+.amen-grid {
+  height: 150px;
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  grid-column-gap: 10px;
+  justify-content: center;
+}
+.amen-item {
+  height: 100px;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  border-radius: 25px;
+  border: 1px solid rgb(255, 196, 0);
+}
+.amen-item .fa-paw {
+  position: relative;
+  margin-left: 25px;
+  margin-top: 15px;
+  font-size: 50px;
+  color: rgb(255, 196, 0);
+  text-align: center;
+}
+.amen-item .fa-wifi {
+  position: relative;
+  margin-left: 20px;
+  margin-top: 15px;
+  font-size: 50px;
+  color: rgb(255, 196, 0);
+  text-align: center;
+}
+.amen-item .fa-parking {
+  position: relative;
+  margin-left: 30px;
+  margin-top: 15px;
+  font-size: 50px;
+  color: rgb(255, 196, 0);
+  text-align: center;
+}
+.amen-item p {
+  margin-top: 5px;
+  font-size: 13px;
+  text-align: center;
+}
+.description {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -50px;
+}
+.description h3 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 30px;
+}
+.description p {
+  font-size: 20px;
+  color: rgba(50, 50, 50, 255);
+}
+footer {
+  margin-top: 35px;
+}
+.footer {
+  margin-top: 15px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer h3 {
+  text-decoration: underline;
+  font-size: 20px;
+  color: rgba(50, 50, 50, 255);
+}
+.footer p {
+  font-size: 15px;
+  color: rgba(50, 50, 50, 255);
+}
+.footer .copyright {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.footer .contact {
+  margin-bottom: 15px;
+}
+.booking-engine {
+  margin-top: 50px;
+}
+.map {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 400px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.gallery {
+  width: 90%;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.gallery img {
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  object-fit: cover;
+}
+.gallery img:hover {
+  cursor: zoom-in;
+}
+.amenities-all {
+  width: 80%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+li::marker {
+  color: black;
+}
+.amenity-title::marker {
+  color: transparent;
+}
+.amenity-title svg {
+  position: relative;
+  margin-left: -20px;
+  font-size: 16px;
+}
+.amenity-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+.amenity-li {
+  color: rgba(50, 50, 50, 255);
+}
+.amenity-group {
+  margin-bottom: 30px;
+  margin-right: 50px;
+  display: block;
+}
+
+#cookie {
+  position: fixed;
+  display: block;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+}
+
+#cookie {
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+#cookie * {
+  margin: 0.5em;
+}
+#cookie input {
+  display: none;
+}
+#cookie input:not(:checked) ~ span::before {
+  content: "This site uses cookies!";
+  display: inline;
+}
+#cookie input:checked ~ * {
+  display: none;
+  pointer-events: none;
+}
+#cookie a {
+  color: white;
+  text-decoration-color: white;
+}
+.btn-success {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}

@@ -106,7 +106,7 @@ main {
   position: relative;
   max-width: 100%;
   float: left;
-  max-height: 500px;
+  height: 450px;
   margin-bottom: 25px;
 }
 .rolling-pics::before {
@@ -130,7 +130,7 @@ main {
   visibility: hidden;
   display: block;
   transition: opacity 1s ease-in, visibility 1s ease-in;
-  max-height: 500px;
+  height: 450px;
   image-rendering: -webkit-optimize-contrast;
   object-fit: cover;
 }

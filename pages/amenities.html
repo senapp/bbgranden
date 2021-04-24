@@ -30,12 +30,18 @@
       rel="stylesheet"
       type="text/css"
     />
+    <script type="text/javascript" src="../scripts/phoneLayout.js"></script>
+    <script>
+      function OnLoad() {
+        LoadLayout();
+      }
+    </script>
     <script
       src="https://use.fontawesome.com/releases/v5.15.1/js/all.js"
       data-auto-a11y="true"
     ></script>
   </head>
-  <body>
+  <body onload="OnLoad()">
     <header>
       <div class="navbar">
         <a href="home"><h3>Hotel B&B Gränden</h3></a>
@@ -185,7 +191,7 @@
               <br />
             </p>
           </span>
-          <p class="copyright">Copyright © 2020 B&B Gränden</p>
+          <p class="copyright">Copyright © <script>document.write(new Date().getFullYear())</script> B&B Gränden</p>
         </div>
       </footer>
     </main>

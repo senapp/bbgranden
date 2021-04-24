@@ -5,14 +5,16 @@ window.mobileCheck = function() {
   };
 
 function LoadLayout(){
-    let phoneDiv = document.getElementsByClassName("call")[0].getElementsByTagName("a")[0];
-    let svg = phoneDiv.getElementsByTagName("svg")[0];
-    if (window.mobileCheck()){
-        phoneDiv.innerHTML = svg.outerHTML;
-        phoneDiv.style.marginRight = "30px";
-    }
-    else {
-        phoneDiv.innerHTML = svg.outerHTML + "+46 72 222 24 18";
-        phoneDiv.style.marginRight = "0px";
-    }
+    setTimeout(() => {
+        let phoneDiv = document.getElementsByClassName("call")[0].getElementsByTagName("a")[0];
+        let svg = phoneDiv.getElementsByTagName("svg")[0];
+        if (window.mobileCheck()){
+            phoneDiv.innerHTML = svg.outerHTML;
+            phoneDiv.style.marginRight = "30px";
+        }
+        else {
+            phoneDiv.innerHTML = svg.outerHTML + "+46 72 222 24 18";
+            phoneDiv.style.marginRight = "0px";
+        }
+    }, 100);
 }

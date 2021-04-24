@@ -101,6 +101,7 @@ main {
 }
 .call a {
   font-size: 18px;
+  margin-right: 30px;
 }
 .rolling-pics {
   position: relative;

@@ -322,8 +322,8 @@ li::marker {
   position: absolute;
   margin-left: auto;
   margin-right: auto;
-  height: 10vh;
-  width: 10vh;
+  height: 7vh;
+  width: 7vh;
   object-fit: cover;
   top: 50%;
   left: 50%;

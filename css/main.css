@@ -7,61 +7,61 @@ body {
 }
 h1 {
   font-family: "Open Sans";
-  font-size: 24px;
+  font-size: 3vh;
   font-style: normal;
   font-variant: normal;
   font-weight: 700;
-  line-height: 26.4px;
+  line-height: 3.2vh;
 }
 h3 {
   font-family: "Open Sans";
-  font-size: 14px;
+  font-size: 2vh;
   font-style: normal;
   font-variant: normal;
   font-weight: 700;
-  line-height: 15.4px;
+  line-height: 2.2vh;
 }
 p {
   font-family: "Open Sans";
-  font-size: 14px;
+  font-size: 2vh;
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 3vh;
 }
 span {
   font-family: "Open Sans";
-  font-size: 14px;
+  font-size: 2vh;
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 3vh;
 }
 a {
   color: black;
   text-decoration: none;
   font-family: "Open Sans";
-  font-size: 14px;
+  font-size: 2vh;
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 3vh;
 }
 blockquote {
   font-family: "Open Sans";
-  font-size: 21px;
+  font-size: 3vh;
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 4vh;
 }
 pre {
   font-family: "Open Sans";
-  font-size: 13px;
+  font-size: 2vh;
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
-  line-height: 18.5714px;
+  line-height: 2.5vh;
 }
 .navbar {
   position: fixed;
@@ -80,35 +80,32 @@ main {
 .navbar h3 {
   position: absolute;
   top: 50%;
-  left: 20px;
+  left: 3vh;
   -ms-transform: translate(0, -50%);
   transform: translate(0, -50%);
-  font-size: 20px;
+  font-size: 3.5vh;
 }
 .call {
   position: absolute;
-  right: 1.5%;
+  right: 3vh;
   top: 50%;
   -ms-transform: translate(0, -50%);
   transform: translate(0, -50%);
 }
 .fa-phone-alt {
-  position: absolute;
-  top: -2px;
-  left: -20%;
-  font-size: 25px;
+  margin-right: 1vh;
+  font-size: 4vh;
   color: rgb(255, 196, 0);
 }
 .call a {
-  font-size: 18px;
-  margin-right: 30px;
+  font-size: 3vh;
 }
 .rolling-pics {
   position: relative;
   max-width: 100%;
   float: left;
-  height: 450px;
-  margin-bottom: 25px;
+  height: 65vh;
+  margin-bottom: 4vh;
 }
 .rolling-pics::before {
   content: "";
@@ -131,12 +128,12 @@ main {
   visibility: hidden;
   display: block;
   transition: opacity 1s ease-in, visibility 1s ease-in;
-  height: 450px;
+  height: 65vh;
   image-rendering: -webkit-optimize-contrast;
   object-fit: cover;
 }
 .amenities {
-  height: 150px;
+  height: 20vh;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
@@ -144,54 +141,54 @@ main {
 .amenities h3 {
   text-align: center;
   text-decoration: underline;
-  font-size: 30px;
+  font-size: 4vh;
 }
 .amen-grid {
-  height: 150px;
+  height: 20vh;
   display: grid;
   margin-left: auto;
   margin-right: auto;
   grid-template-columns: auto auto auto;
   align-items: center;
-  grid-column-gap: 10px;
+  grid-column-gap: 1.5vh;
   justify-content: center;
 }
 .amen-item {
-  height: 75px;
-  width: 75px;
+  height: 12vh;
+  width: 12vh;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-  border-radius: 37.5px;
-  border: 1px solid rgb(255, 196, 0);
+  border-radius: 6vh;
+  border: 0.1vh solid rgb(255, 196, 0);
 }
 .amen-item .fa-paw {
   position: relative;
-  margin-left: 14px;
-  margin-top: 12.5px;
-  font-size: 50px;
+  margin-left: 2.2vh;
+  margin-top: 2.2vh;
+  font-size: 7.5vh;
   color: rgb(255, 196, 0);
   text-align: center;
 }
 .amen-item .fa-wifi {
   position: relative;
-  margin-left: 7px;
-  margin-top: 12.5px;
-  font-size: 50px;
+  margin-left: 1.4vh;
+  margin-top: 2.2vh;
+  font-size: 7.5vh;
   color: rgb(255, 196, 0);
   text-align: center;
 }
 .amen-item .fa-parking {
   position: relative;
-  margin-left: 16px;
-  margin-top: 12.5px;
-  font-size: 50px;
+  margin-left: 2.75vh;
+  margin-top: 2.2vh;
+  font-size: 7.5vh;
   color: rgb(255, 196, 0);
   text-align: center;
 }
 .amen-item p {
-  margin-top: 17.5px;
-  font-size: 15px;
+  margin-top: 3.5vh;
+  font-size: 2.5vh;
   font-weight: bold;
   text-align: center;
 }
@@ -203,52 +200,56 @@ main {
 .description h3 {
   text-align: center;
   text-decoration: underline;
-  font-size: 30px;
+  font-size: 5vh;
 }
 .description p {
-  font-size: 20px;
+  margin-top: 3vh;
+  font-size: 3vh;
   color: rgba(50, 50, 50, 255);
 }
 footer {
-  margin-top: 75px;
+  margin-top: 14vh;
 }
 .footer {
-  margin-top: 15px;
+  margin-top: 2vh;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
 }
 .footer h3 {
   text-decoration: underline;
-  font-size: 20px;
-  color: rgba(50, 50, 50, 255);
+  font-size: 3.5vh;
 }
 .footer p {
-  font-size: 15px;
+  font-size: 2.2vh;
   color: rgba(50, 50, 50, 255);
+}
+.footer a {
+  font-size: 2.2vh;
 }
 .footer .copyright {
   text-align: center;
-  padding-bottom: 15px;
+  padding-bottom: 2vh;
   font-weight: bold;
+  font-size: 2vh;
 }
 .footer .contact {
-  margin-bottom: 15px;
+  margin-bottom: 2vh;
 }
 .booking-engine {
   margin-top: 0px;
 }
 .map {
-  margin-top: 50px;
-  margin-bottom: 50px;
-  height: 400px;
+  margin-top: 7.5vh;
+  margin-bottom: 7.5vh;
+  height: 45vh;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
 }
 .gallery {
   width: 90%;
-  margin-top: 30px;
+  margin-top: 3vh;
   margin-left: auto;
   margin-right: auto;
   height: auto;
@@ -258,21 +259,20 @@ footer {
   flex-direction: row;
 }
 .gallery img {
-  width: 200px;
-  height: 200px;
-  margin: 5px;
+  width: 40vh;
+  height: 40vh;
+  margin: 1vh;
   object-fit: cover;
 }
 .gallery img:hover {
   cursor: zoom-in;
 }
 .amenities-all {
-  width: 80%;
   height: auto;
-  margin-left: auto;
   margin-right: auto;
-  margin-top: 30px;
-  margin-bottom: 50px;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  margin-left: 8vh;
 }
 li::marker {
   color: black;
@@ -282,78 +282,50 @@ li::marker {
 }
 .amenity-title svg {
   position: relative;
-  margin-left: -20px;
-  font-size: 16px;
+  margin-left: -3.8vh;
+  margin-right: 0.5vh;
+  font-size: 3vh;
+  min-width: 3vh;
 }
 .amenity-title {
-  font-size: 18px;
+  font-size: 4vh;
   font-weight: bold;
 }
 .amenity-li {
   color: rgba(50, 50, 50, 255);
+  font-size: 3vh;
 }
 .amenity-group {
-  margin-bottom: 30px;
-  margin-right: 50px;
+  margin-bottom: 4vh;
+  margin-right: 6vh;
   display: block;
 }
-
-#cookie {
-  position: fixed;
-  display: block;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: 0;
-  padding: 0;
-}
-
-#cookie {
-  color: white;
-  background-color: black;
+.note {
   text-align: center;
+  margin-bottom: 2vh;
+  font-size: 2vh;
 }
-#cookie * {
-  margin: 0.5em;
+.flag {
+  position: absolute;
+  right: 10vh;
+  top: 50%;
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  border-radius: 3vh;
+  height: 6vh;
+  width: 6vh;
+  border-radius: 3vh;
+  border: 0.1vh solid rgb(255, 196, 0);
+  overflow: hidden;
 }
-#cookie input {
-  display: none;
-}
-#cookie input:not(:checked) ~ span::before {
-  content: "This site uses cookies!";
-  display: inline;
-}
-#cookie input:checked ~ * {
-  display: none;
-  pointer-events: none;
-}
-#cookie a {
-  color: white;
-  text-decoration-color: white;
-}
-.btn-success {
-  color: #fff;
-  background-color: #5cb85c;
-  border-color: #4cae4c;
-}
-.btn {
-  display: inline-block;
-  padding: 6px 12px;
-  margin-bottom: 0;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.42857143;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  -ms-touch-action: manipulation;
-  touch-action: manipulation;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  background-image: none;
-  border: 1px solid transparent;
-  border-radius: 4px;
+.flag img {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  height: 10vh;
+  width: 10vh;
+  object-fit: cover;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
